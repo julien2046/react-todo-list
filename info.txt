@@ -1,0 +1,13 @@
+
+/*
+On récupére tous les éléments du tableau
+On sélectionne celui avec le bon index passant en paramétre
+On met à jour le state
+
+inputChange = (event, index) => {
+  const changedItems = [...this.state.items];
+  changedItems[index] = event.target.value
+
+  this.setState({items: changedItems});
+}
+*/

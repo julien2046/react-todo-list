@@ -1,0 +1,30 @@
+
+.list-todo {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: 300px;
+
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.list-todo__input {
+  width: 99%;
+}
+
+.list-todo__list {
+  list-style-type: none;
+}
+
+.list-todo__btn-validate {
+  float: right;
+  border-radius: 50%;
+}
+
+.validate {
+  color: green;
+}
